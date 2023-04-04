@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     background-color: var(--blue1);
+    color: var(--blue3);
   }
   
   .header-container {
@@ -59,12 +60,23 @@
     margin: 0 10px;
     align-self: stretch;
   }
+
+  .about-section-content {
+    display: flex;
+    align-items: flex-start;
+  }
   
-  .content-section p img {
+  .content-section img {
     width: 90px;
     height: 90px;
     object-fit: cover;
     margin-right: 10px;
+    margin-left: 20px;
+  }
+
+  .content-section p {
+    display: flex;
+    align-items: center;
   }
   
   .work-container {
@@ -76,11 +88,13 @@
   }
   
   .large-container {
-    width: 100%;
-    height: 200px;
+    width: 100%; /* Reduced width to 90% */
+    height: 300px; /* Increased height to 220px */
     background-color: var(--teal);
     margin-bottom: 10px;
     border: 2px solid var(--blue3);
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .small-container-row {
@@ -88,19 +102,22 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 10px;
+    gap: 10px; /* Add gap to control the space between small containers */
   }
   
   .small-container {
-    width: calc(50% - 5px);
-    height: 100px;
+    width: calc(50% - 5px); /* Revert width back to 50% */
+    height: 150px; /* Increased height to 120px */
     background-color: var(--teal);
     border: 2px solid var(--teal);
+    border: 2px solid var(--blue3);
   }
   
   footer {
     display: flex;
     align-items: center;
     padding: 10px;
+    font-size: 1.5rem;
   }
   
   footer h3 {
@@ -115,6 +132,7 @@
   }
   
   footer li {
-    margin-right: 10px;
+    margin-right: 50px;
+    
   }
   
