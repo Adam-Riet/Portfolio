@@ -90,8 +90,7 @@
   .large-container {
     position: relative;
     width: 99.8%; 
-    height: 300px; /* Increased height to 220px */
-    background-color: var(--teal);
+    height: 300px;
     margin-bottom: 10px;
     border: 2px solid var(--blue3);
     margin-left: auto;
@@ -109,8 +108,7 @@
   .small-container {
     position: relative;
     width: calc(50% - 5px); 
-    height: 150px; 
-    background-color: var(--teal);
+    height: 175px; 
     border: 2px solid var(--teal);
     border: 2px solid var(--blue3);
   }
@@ -147,7 +145,7 @@
   }
   
   .small-container-3 {
-    background-image: url('./images/image-3.jpg');
+    background-image: url('../images/Horiseon.png');
   }
   
   .small-container-4 {
@@ -162,4 +160,9 @@
     height: 50px;
     background-color: var(--blue3);
     z-index: 1;
+    color: var(--light);
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 5px;
+    font-size: 1.5rem;
   }
