@@ -31,6 +31,19 @@
     font-weight: bold;
     color: var(--teal);
   }
+
+  .name-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-picture {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+
   
   nav {
     display: flex;
@@ -66,17 +79,12 @@
     align-items: flex-start;
   }
   
-  .content-section img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    margin-right: 10px;
-    margin-left: 20px;
-  }
+
 
   .content-section p {
     display: flex;
     align-items: center;
+    padding-left: 25px;
   }
   
   .work-container {
@@ -133,25 +141,52 @@
   
   footer li {
     margin-right: 50px;
+    font-size: 1rem;
     
   }
 
+  .large-container {
+    position: relative;
+    width: 99.8%;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 2px solid var(--blue3);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/cravinbusters.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+
   .small-container-1 {
-    background-image: url('./images/image-1.jpg');
+    background-image: url('../images/password.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   
   .small-container-2 {
-    background-image: url('./images/image-2.jpg');
+    background-image: url('../images/workday.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   
   .small-container-3 {
     background-image: url('../images/Horiseon.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   
   .small-container-4 {
-    background-image: url('./images/image-4.jpg');
+    background-image: url('../images/weather.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
-  
+
   .inner-box {
     position: absolute;
     bottom: 10px;
@@ -164,5 +199,11 @@
     text-align: right;
     padding-top: 15px;
     padding-right: 5px;
-    font-size: 1.5rem;
+    text-align: right;
+    font-size: .8rem;
+    box-sizing: border-box;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
