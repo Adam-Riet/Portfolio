@@ -1,0 +1,12 @@
+/* Credit to https://www.vecteezy.com/free-vector/background for the background image */
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Merriweather:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --primary-color: #CAEBF2;
+    --secondary-color: #A9A9A9;
+    --tertiary-color: #FF3B3F;
+    --quaternary-color: #EFEFEF;
+}
