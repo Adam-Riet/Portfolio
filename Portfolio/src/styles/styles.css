@@ -4,9 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Merriweather:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
 
+
 :root {
     --primary-color: #CAEBF2;
     --secondary-color: #A9A9A9;
     --tertiary-color: #FF3B3F;
     --quaternary-color: #EFEFEF;
 }
+
+/* .App {
+    background-image: url('/mainbackground.jpg');
+} */
