@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/styles.css';
-import backgroundImage from './assets/mainbackground.jpg'; // the path to the image relative to your App.js file
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
-    return (
-    <div className="App" style={{ 
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        minHeight: '100vh'
-    }}>
-      
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div className="App">
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <PortfolioContainer currentPage={currentPage} />
+      <div className="FooterWrapper">
+        <Footer />
+      </div>
     </div>
   );
 }
