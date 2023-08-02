@@ -17,11 +17,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background-color: var(--quaternary-color);
-  
-}
-
 p {
     color: var(--primary-color);
 }
@@ -46,47 +41,55 @@ h3 {
 
 
 /* About Me */
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 75vh;
+}
+
+.left-content {
+    width: 40%;
+}
+
 .abcontainer {
-    margin-left: 50px;
-    margin-bottom: 100px;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .abcontainer img {
     width: 150px; 
     height: 150px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 50%;
 }
 
 .abcontainer .abparagraph {
-    margin-bottom: 20px; 
+    max-width: 80%; /* limit the width of paragraphs */
+    margin-bottom: 20px;
+    text-align: justify; /* This will justify the text within each paragraph */
 }
 
 .abcontainer p {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 1000;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    color: var(--tertiary-color);
+    color: var(--quinary-color);
     font-family: 'Open Sans', sans-serif;
 }
-@media screen and (min-width: 1100px) { 
-    .abcontainer {
-        margin-bottom: 500px;
-    }
-}
+
 
 .App {
     background-image: url('../assets/background.avif');
-    background-size: cover;
+    background-size: fill;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    
     margin: 0;
     padding: 0;
 }
@@ -204,7 +207,7 @@ h3 {
 }
 
 .logo a:hover svg {
-    fill: black; 
+    fill: var(--quinary-color);
 }
 
 .logo1 a svg {
@@ -212,7 +215,7 @@ h3 {
 }
 
 .logo1 a:hover svg {
-    fill: blue; 
+    fill: var(--quinary-color);
 }
 
 /* Resume settings */
