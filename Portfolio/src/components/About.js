@@ -1,12 +1,13 @@
 import React from 'react';
 import myImage from '../assets/portfolio.jpg'; 
 import '../styles/styles.css';
+import TypingEffect from './TypingEffect';
 
 function About() {
     return (
         <div className="main-container">
             <div className="left-content">
-                {/* Your left-side content will go here */}
+                {<TypingEffect />}
             </div>
             <div className="abcontainer">
                 <div className="abparagraph">
