@@ -8,6 +8,7 @@ import blog from '../assets/blog.jpg';
 import ecommerce from '../assets/ecommerce.jpg';
 import readme from '../assets/readme.png';
 import dayplanner from '../assets/dayplanner.jpg';
+import book from '../assets/book.jpg';
 
 function Project() {
     return (
@@ -22,6 +23,12 @@ function Project() {
                     </a>
                     <a href="https://sleepshop.herokuapp.com/login" target="_blank" rel="noopener noreferrer" className="project-title">sleepshop</a>
                 </div>
+                <div className="grid-item" style={{ backgroundImage: `url(${book})` }}>
+                    <a href="https://github.com/Adam-Riet/Book-Search-Engine" target="_blank" rel="noopener noreferrer" className="github-link">
+                        <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
+                    </a>
+                    <a href="https://book-search-engine2023-f067c82bf9e1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-title">Book Search</a>
+                </div>
                 <div className="grid-item" style={{ backgroundImage: `url(${socialmedia})` }}>
                     <a href="https://github.com/Adam-Riet/Social-Network-API" target="_blank" rel="noopener noreferrer" className="github-link">
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
@@ -33,12 +40,7 @@ function Project() {
                     </a>
                     <a href="https://note-taker-express-v1.herokuapp.com/notes" target="_blank" rel="noopener noreferrer" className="project-title">Note Taker</a>
                 </div>
-                <div className="grid-item" style={{ backgroundImage: `url(${blog})` }}>
-                    <a href="https://github.com/Adam-Riet/TechBlog" target="_blank" rel="noopener noreferrer" className="github-link">
-                        <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
-                    </a>
-                    <a href="https://techblog-2023-e186fd1c7525.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-title2">Tech Blog</a>
-                </div>
+                
                 <div className="grid-item" style={{ backgroundImage: `url(${ecommerce})` }}>
                     <a href="https://github.com/Adam-Riet/Social-Network-API" target="_blank" rel="noopener noreferrer" className="github-link">
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
