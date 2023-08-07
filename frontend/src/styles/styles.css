@@ -1,37 +1,26 @@
-/* Credit to Image by https://www.freepik.com/free-vector/realistic-black-shimmer-background_37452016.htm#query=background&position=49&from_view=keyword&track=sph" for the background image */
-
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Merriweather:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
 
-
-
-
 [data-theme='dark'] {
     --primary-color: #0b0c10;
-    --secondary-color: #08494d;
     --tertiary-color: #C5C6C7;
     --quinary-color: #116466;
 }
 
 [data-theme='light'] {
-    --primary-color: #eaeaea;
-    --secondary-color: #08494d;
-    --tertiary-color: #BC986A;
-    --quinary-color: #659BDB;
+    --primary-color: #F7F9FB;
+    --tertiary-color: #5085A5;
+    --quinary-color: #687864;
 }
 
 /* Main app settings */
 .App {
     font-family: 'Open Sans', sans-serif;
-    /* background-image: url('../assets/background.avif');
-    background-size: cover;
-    background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--primary-color);
-    
     margin: 0;
     padding: 0;
 }
@@ -53,11 +42,10 @@ h1 {
 }
 
 h2 {
-    color: var(--quinary-color);
+    color: var(--tertiary-color);
     font-family: 'Merriweather', serif;
     font-size: 2.7rem;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); 
-    -webkit-text-stroke: 1px var(--quinary-color);
+    -webkit-text-stroke: 1px var(--tertiary-color);
 }
 
 h3 {
@@ -95,7 +83,7 @@ h3 {
 
 .left-content img {
     width: 115px; 
-    height: 160px;
+    height: 150px;
     border-radius: 50%;
     
 }
@@ -114,7 +102,6 @@ h3 {
     padding: 0;
     color: var(--quinary-color);
     font-family: 'Open Sans', sans-serif;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); 
     -webkit-text-stroke: 1px var(--tertiary-color);
     }
 
@@ -138,7 +125,7 @@ h3 {
         max-width: 100%;
     }
     .console-line {
-        font-size: 0.8rem; /* smaller font size for mobile views */
+        font-size: 0.8rem;
     }
 }
 /* -------------------------------- */
@@ -261,7 +248,7 @@ h3 {
 
 .nav a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--quinary-color);
     font-weight: bold;
     font-size: 30px;
 }
@@ -279,7 +266,7 @@ h3 {
     content: '|';
     padding-left: 15px;
     padding-right: 15px;
-    color: var(--quinary-color);
+    color: var(--tertiary-color);
   }
   
   .nav-item:last-child::after {
@@ -293,15 +280,15 @@ h3 {
     }
 
     .nav-item {
-        border-bottom: 1px solid var(--quinary-color); /* horizontal line separator */
+        border-bottom: 1px solid var(--quinary-color); 
     }
 
     .nav-item::after {
-        content: ''; /* remove vertical separator */
+        content: ''; 
     }
 
     .nav-item:last-child {
-        border-bottom: none; /* remove border for the last item */
+        border-bottom: none; 
     }
 }
 
@@ -366,7 +353,6 @@ h3 {
 /* Project settings */
 
 .projectcontainer {
-    /* margin-left: 50px; */
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -562,8 +548,8 @@ h3 {
 /* -------------------------------- */
 
 hr {
-    border: 0;               /* Removes the default border */
-    border-top: 1px solid var(--tertiary-color);  /* Creates a subtle light line */
-    width: 70%;              /* Sets the width to 80% of its container */
-    margin: 15px auto;       /* Centers the line and gives space above and below */
+    border: 0;               
+    border-top: 1px solid var(--tertiary-color); 
+    width: 70%;              
+    margin: 15px auto;     
 }
