@@ -5,18 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Merriweather:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
 
 
-:root {
-    --primary-color1: #fafafa;
-    --secondary-color1: #eaeaea;
-    --tertiary-color1: #659BDB;
-    --quinary-color1: #659BDB;
-}
+
 
 [data-theme='dark'] {
     --primary-color: #0b0c10;
     --secondary-color: #08494d;
     --tertiary-color: #C5C6C7;
     --quinary-color: #116466;
+}
+
+[data-theme='light'] {
+    --primary-color: #eaeaea;
+    --secondary-color: #08494d;
+    --tertiary-color: #BC986A;
+    --quinary-color: #659BDB;
 }
 
 /* Main app settings */
@@ -92,9 +94,8 @@ h3 {
 }
 
 .left-content img {
-    width: 150px; 
-    height: 150px;
-    margin-top: 20px;
+    width: 115px; 
+    height: 160px;
     border-radius: 50%;
     
 }
