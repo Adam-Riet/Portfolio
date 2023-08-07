@@ -13,6 +13,8 @@ function Project() {
     return (
         <div className="projectcontainer">
             <h2>Portfolio</h2>
+            <p>Hover over a project to see its name and GitHub logo. Click on the name for the live site or the logo for its repository.</p>
+
             <div className="grid-container">
                 <div className="grid-item" style={{ backgroundImage: `url(${sleepshop})` }}>
                     <a href="https://github.com/Luis6400/SleepShop" target="_blank" rel="noopener noreferrer" className="github-link">

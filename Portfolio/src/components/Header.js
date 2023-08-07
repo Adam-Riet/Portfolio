@@ -13,7 +13,9 @@ function Header({ currentPage, handlePageChange }) {
         <span className="bracket">{'}'}</span>
       </h1>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+    
     </div>
+  
   );
 }
 
