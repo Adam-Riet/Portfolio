@@ -13,8 +13,24 @@
     --quinary-color: #45a29e;
 }
 
+/* Main app settings */
 .App {
     font-family: 'Open Sans', sans-serif;
+    background-image: url('../assets/background.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .App {
+        background-size: 800px 2000px;
+    }
 }
 
 p {
@@ -38,49 +54,49 @@ h3 {
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
 }
-
+/* -------------------------------- */
 
 /* About Me */
 .main-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+  
     min-height: 75vh;
 }
 
-.left-content {
-    width: 40%;
-    max-width: 40%;
-    background-color: #000;
+.left-content, .right-content {
+    width: 50%;  
+    max-width: 50%;  
     padding: 20px;
     border-radius: 5px;
-    
-    overflow-wrap: break-word;  
+    overflow-wrap: break-word;
 }
 
-.abcontainer {
-    width: 60%;
-    max-width: 60%;
+.right-content {
+    width: 40%;  
+    max-width: 40%; 
+    background-color: #000;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center;  
+    justify-content: center;  
+}
+
+.left-content img {
+    width: 200px; 
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
 }
 
-.abcontainer img {
-    width: 150px; 
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
-
-.abcontainer .abparagraph {
-    max-width: 80%; /* limit the width of paragraphs */
+.left-content .abparagraph {
+    max-width: 80%; 
     margin-bottom: 20px;
-    text-align: justify; /* This will justify the text within each paragraph */
-}
+    text-align: justify; 
+    }
 
-.abcontainer p {
+.left-content p {
     font-size: 1.5rem;
     font-weight: 1000;
     line-height: 1.5;
@@ -88,21 +104,38 @@ h3 {
     padding: 0;
     color: var(--quinary-color);
     font-family: 'Open Sans', sans-serif;
-}
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); 
+    -webkit-text-stroke: 1px var(--tertiary-color);
+    }
 
-
-.App {
-    background-image: url('../assets/background.avif');
-    background-size: cover;
-    background-repeat: no-repeat;
+.abimage {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    margin: 0;
-    padding: 0;
+    justify-content: center;
 }
-/*-------------------/*
+@media only screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .left-content .abparagraph p {
+        text-align: left;
+    }
+
+    .left-content, .right-content {
+        width: 100%; 
+        max-width: 100%;
+    }
+
+    .right-content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .console-line {
+        font-size: 0.8rem; /* smaller font size for mobile views */
+    }
+}
+/* -------------------------------- */
+
 /* Header Settings */
 .header-container {
     
@@ -121,11 +154,11 @@ h3 {
 }
 
 .name {
-    font-size: 1.2em; /* adjust as needed */
+    font-size: 1.2em; 
 }
 
 .title {
-    font-size: 0.5em; /* adjust as needed */
+    font-size: 0.5em; 
 }
 
 .header-content {
@@ -162,7 +195,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-/*------------------/*
+/* -------------------------------- */
 /* Navbar setting */
 .nav-container {
     display: flex;
@@ -182,7 +215,7 @@ h3 {
 
 .nav a {
     text-decoration: none;
-    color: var(--quinary-color);
+    color: var(--tertiary-color);
     font-weight: bold;
     font-size: 30px;
 }
@@ -208,25 +241,25 @@ h3 {
   }
 
 
-/*---------------------/*  
+/* -------------------------------- */ 
 /* SVG Logo settings */
 
   .logo a svg {
-    fill: var(--tertiary-color);
+    fill: var(--quinary-color);
 }
 
 .logo a:hover svg {
-    fill: var(--quinary-color);
-}
-
-.logo1 a svg {
     fill: var(--tertiary-color);
 }
 
-.logo1 a:hover svg {
+.logo1 a svg {
     fill: var(--quinary-color);
 }
 
+.logo1 a:hover svg {
+    fill: var(--tertiary-color);
+}
+/* -------------------------------- */
 /* Resume settings */
 
 .resumecontainer {
@@ -260,6 +293,7 @@ h3 {
         margin-bottom: 300px;
     }
 }
+/* -------------------------------- */
 /* Project settings */
 
 .projectcontainer {
@@ -318,7 +352,7 @@ h3 {
     left: 10px;
     margin: 0;
     padding: 0;
-    color: var(--tertiary-color);
+    color: var(--quinary-color);
     text-decoration: none;
     font-size: 2em;
     transform: scale(1);
@@ -329,7 +363,7 @@ h3 {
 .grid-item:hover .project-title {
     opacity: 1;
     transform: scale(1.2);
-    color: var(--tertiary-color);
+    color: var(--quinary-color);
 }
 
 .project-title2 {
@@ -367,7 +401,7 @@ h3 {
         grid-template-columns: 1fr;
     }
 }
-
+/* -------------------------------- */
 /* Contact settings */
 
 .contact-container {
@@ -394,22 +428,26 @@ h3 {
 .contact-container ul {
     margin-top: -10px; 
 }
-
+/* -------------------------------- */
 /* Typing effect setting */
 .console-line {
     background-color: black;
     color: white;
     padding: 1rem;
-    width: 90%; /* adjust this value as needed */
-    height: 400px; /* adjust this value as needed */
+    width: 80%; 
+    height: auto;
+    max-height: 500px; 
+    min-height: 100px;
     margin: auto;
     border-radius: 5px;
-    overflow: hidden; /* hide overflow text */
-    white-space: pre-wrap; /* preserve spaces and line breaks */
-    font-family: 'Courier New', Courier, monospace; /* give it a CLI feel */
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: pre-wrap; 
+    font-family: 'Courier New', Courier, monospace; 
     opacity: 0;
     transition: opacity 2s ease-in-out;
     animation: fadeIn 2s forwards;
+    line-height: 1.5;
 }
 
 .console-cursor {
@@ -431,3 +469,4 @@ h3 {
         opacity: 1;
     }
 }
+/* -------------------------------- */

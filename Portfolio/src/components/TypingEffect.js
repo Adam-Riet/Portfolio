@@ -27,7 +27,7 @@ console.log(shouldHireMe(you, candidate));
             setText((prevText) => {
                 return fullText.substring(0, prevText.length + 1);
             });
-        }, 50);  // Change the typing speed by adjusting this value
+        }, 30); 
 
         return () => clearInterval(timer);
     }, []);
