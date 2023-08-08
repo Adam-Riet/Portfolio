@@ -22,4 +22,4 @@ The portfolio page was built using the popular JavaScript library, React.
 
 ## License
 
-This project is licensed under the terms of the MIT license. For more details, see [the MIT License page](https://opensource.org/licenses/MIT).
+Copyright (c) [2023] [Adam Riet]. All rights reserved.
