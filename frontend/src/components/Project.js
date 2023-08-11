@@ -16,7 +16,13 @@ function Project() {
             <h2>Portfolio</h2>
             <p>Hover over a project to see its name and GitHub logo. Click on the name for the live site or the logo for its repository.</p>
 
-            <div className="grid-container">
+                <div className="grid-container">
+                <div className="grid-item" style={{ backgroundImage: `url(${socialmedia})` }}>
+                    <a href="https://github.com/Luis6400/Brrdi" target="_blank" rel="noopener noreferrer" className="github-link">
+                        <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
+                    </a>
+                    <a href="https://brrdi-aeb82933537b.herokuapp.com/login" target="_blank" rel="noopener noreferrer" className="project-title">Brrdi</a>
+                </div>
                 <div className="grid-item" style={{ backgroundImage: `url(${sleepshop})` }}>
                     <a href="https://github.com/Luis6400/SleepShop" target="_blank" rel="noopener noreferrer" className="github-link">
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
@@ -28,11 +34,6 @@ function Project() {
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
                     </a>
                     <a href="https://book-search-engine2023-f067c82bf9e1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-title">Book Search</a>
-                </div>
-                <div className="grid-item" style={{ backgroundImage: `url(${socialmedia})` }}>
-                    <a href="https://github.com/Adam-Riet/Social-Network-API" target="_blank" rel="noopener noreferrer" className="github-link">
-                        <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
-                    </a>
                 </div>
                 <div className="grid-item" style={{ backgroundImage: `url(${notetaker})` }}>
                     <a href="https://github.com/Adam-Riet/Note-Taker" target="_blank" rel="noopener noreferrer" className="github-link">
