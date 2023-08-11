@@ -2,7 +2,8 @@
 
 ## Description
 
-Welcome to my coding portfolio! This repository contains a collection of projects I've completed during my intensive bootcamp training. Each project showcases a different skill or concept I've mastered. Additionally, my portfolio includes a section that provides a means to contact me for inquiries or potential collaborations.
+Welcome to my coding portfolio! This repository contains a collection of projects I've completed during my intensive bootcamp training. Each project showcases a different skill or concept I've mastered. Additionally, my portfolio includes a section that provides a means to contact me for inquiries or potential collaborations. You can visit the site [here](https://adam-riet.github.io/Portfolio/).
+
 
 ## Projects
 
@@ -22,4 +23,4 @@ The portfolio page was built using the popular JavaScript library, React.
 
 ## License
 
-Copyright (c) [2023] [Adam Riet]. All rights reserved.
+Copyright (c) [2023] [Adam Riet]. All rights reserved..
