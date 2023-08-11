@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ebd31cef.css",
-    "main.js": "/Portfolio/static/js/main.69beedba.js",
+    "main.js": "/Portfolio/static/js/main.3627ac71.js",
     "static/media/notetaker.jpg": "/Portfolio/static/media/notetaker.68674bdd1e1baf108dd3.jpg",
     "static/media/sleepshop.jpg": "/Portfolio/static/media/sleepshop.1759ae911ec8bd8be338.jpg",
     "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.ccdde37bd0b85cb8b721.jpg",
@@ -16,10 +16,10 @@
     "static/media/github-mark.svg": "/Portfolio/static/media/github-mark.4a4cdaca8ce5b6d96381c26769839e1a.svg",
     "index.html": "/Portfolio/index.html",
     "main.ebd31cef.css.map": "/Portfolio/static/css/main.ebd31cef.css.map",
-    "main.69beedba.js.map": "/Portfolio/static/js/main.69beedba.js.map"
+    "main.3627ac71.js.map": "/Portfolio/static/js/main.3627ac71.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd31cef.css",
-    "static/js/main.69beedba.js"
+    "static/js/main.3627ac71.js"
   ]
 }
