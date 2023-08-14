@@ -17,12 +17,7 @@ function Project() {
             <p>Hover over a project to see its name and GitHub logo. Click on the name for the live site or the logo for its repository.</p>
 
                 <div className="grid-container">
-                <div className="grid-item" style={{ backgroundImage: `url(${socialmedia})` }}>
-                    <a href="https://github.com/Luis6400/Brrdi" target="_blank" rel="noopener noreferrer" className="github-link">
-                        <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
-                    </a>
-                    <a href="https://brrdi-aeb82933537b.herokuapp.com/login" target="_blank" rel="noopener noreferrer" className="project-title">Brrdi</a>
-                </div>
+                
                 <div className="grid-item" style={{ backgroundImage: `url(${sleepshop})` }}>
                     <a href="https://github.com/Luis6400/SleepShop" target="_blank" rel="noopener noreferrer" className="github-link">
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
@@ -42,7 +37,7 @@ function Project() {
                     <a href="https://note-taker-express-v1.herokuapp.com/notes" target="_blank" rel="noopener noreferrer" className="project-title">Note Taker</a>
                 </div>
                 
-                <div className="grid-item" style={{ backgroundImage: `url(${ecommerce})` }}>
+                <div className="grid-item" style={{ backgroundImage: `url(${socialmedia})` }}>
                     <a href="https://github.com/Adam-Riet/Social-Network-API" target="_blank" rel="noopener noreferrer" className="github-link">
                         <img src={githubLogo} alt="GitHub Logo" className="github-logo" />
                     </a>
