@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ebd31cef.css",
-    "main.js": "/Portfolio/static/js/main.3627ac71.js",
+    "main.js": "/Portfolio/static/js/main.6cd16034.js",
     "static/media/notetaker.jpg": "/Portfolio/static/media/notetaker.68674bdd1e1baf108dd3.jpg",
     "static/media/sleepshop.jpg": "/Portfolio/static/media/sleepshop.1759ae911ec8bd8be338.jpg",
     "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.ccdde37bd0b85cb8b721.jpg",
@@ -9,17 +9,17 @@
     "static/media/blog.jpg": "/Portfolio/static/media/blog.0bfac0fc87fd6c350c73.jpg",
     "static/media/socialmedia.jpg": "/Portfolio/static/media/socialmedia.62214dabf52db2ba2b13.jpg",
     "static/media/book.jpg": "/Portfolio/static/media/book.8889c343dfcd19e35e8a.jpg",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.1e0942f0d064fa31deaa.pdf",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.9803e61cdd29d961e0e5.pdf",
     "static/media/readme.png": "/Portfolio/static/media/readme.933df50273e2469fc8b4.png",
     "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.98ab8629e06ff5ae60f5.jpg",
     "static/media/bulb.svg": "/Portfolio/static/media/bulb.acb58e0ca25a1b31698d5a19e52693e8.svg",
     "static/media/github-mark.svg": "/Portfolio/static/media/github-mark.4a4cdaca8ce5b6d96381c26769839e1a.svg",
     "index.html": "/Portfolio/index.html",
     "main.ebd31cef.css.map": "/Portfolio/static/css/main.ebd31cef.css.map",
-    "main.3627ac71.js.map": "/Portfolio/static/js/main.3627ac71.js.map"
+    "main.6cd16034.js.map": "/Portfolio/static/js/main.6cd16034.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd31cef.css",
-    "static/js/main.3627ac71.js"
+    "static/js/main.6cd16034.js"
   ]
 }
